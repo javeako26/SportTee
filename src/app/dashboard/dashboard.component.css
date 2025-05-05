@@ -1,0 +1,17 @@
+/* Fine-tune the gradient and layout */
+.bg-gradient-to-b {
+    background: linear-gradient(to bottom, #1e3a8a, #93c5fd);
+  }
+  
+  main {
+    padding-bottom: 60px;
+  }
+  
+  @media (max-width: 640px) {
+    .max-w-xs {
+      width: 90%;
+    }
+    .grid-cols-2 {
+      grid-template-columns: 1fr; /* Stack items vertically on very small screens if needed */
+    }
+  }
